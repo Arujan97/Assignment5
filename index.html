@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School photography club</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-sans">
+
+    
+ <header class="w-full bg-white shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
+  
+      <div class="text-2xl font-bold text-purple-600">Photography</div>
+
+   
+      <nav id="nav" class="hidden md:flex space-x-6 font-medium text-gray-700">
+        <a href="#About" class="hover:text-purple-600">About</a>
+        <a href="#Club Members"  class="hover:text-purple-600">Club Members</a>
+        <a href="#Equipment List" class="hover:text-purple-600">Equipment List</a>
+        <a href="#Upcoming Events" class="hover:text-purple-600">Upcoming Events</a>
+        <a href="#Join Our Club" class="hover:text-purple-600">Join Our Club</a>
+      </nav>
+
+     
+      <button id="menu-btn" class="md:hidden text-gray-700">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+      <a href="#About" class="block py-2 text-gray-700 hover:text-purple-600">About</a>
+      <a href="#Club Members" class="block py-2 text-gray-700 hover:text-purple-600">Club Members</a>
+      <a href="#Equipment List" class="block py-2 text-gray-700 hover:text-purple-600">Equipment List</a>
+      <a href="#Upcoming Events" class="block py-2 text-gray-700 hover:text-purple-600">Upcoming Events</a>
+      <a href="#Join Our Club" class="block py-2 text-gray-700 hover:text-purple-600">Join Our Club</a>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class=" max-w-8xl mx-auto p-5 mt-8 shadow-md rounded bg-white">
+    <h2 class="text-3xl font-bold mb-2">Welcome to Our School Photography Club</h2>
+    <p class="text-gray-600">Capturing memories, one photo at a time!..</p>
+  </section>
+  
+<img src=" https://wallpaperaccess.com/full/2998424.jpg " alt="Camera with blurred background" class="w-full h-auto object-cover rounded-lg shadow-lg" />
+
+<section id="About" class="max-w-6xl mx-auto px-4 py-8">
+    <h2 class="text-2xl sm:text-3xl font-bold text-purple-700 mb-2">About Our Photography Club</h2>
+    <p class="text-base sm:text-lg mb-6">We capture memories, tell stories, and build creative bonds through the lens.</p>
+
+    <!-- Unordered List -->
+    <h3 class="text-lg font-semibold text-purple-700 mb-1">What We Do (Unordered List):</h3>
+    <ul class="list-disc list-inside text-base mb-6 space-y-1">
+      <li>Nature Photography</li>
+      <li>Portrait Photography</li>
+      <li>Street Photography</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3 class="text-lg font-semibold text-purple-700 mb-1">How to Improve Your Photography (Ordered List):</h3>
+    <ol class="list-decimal list-inside text-base space-y-1">
+      <li>Practice regularly</li>
+      <li>Learn lighting and framing</li>
+      <li>Join workshops or competitions</li>
+      <li>Seek constructive feedback</li>
+      <li>Experiment and have fun</li>
+    </ol>
+  </section>
+
+  <!-- Members Section -->
+  <section id="Club Members" class="max-w-6xl mx-auto px-4 py-8">
+    <h3 class="text-2xl font-semibold text-purple-700 mb-4">Club Members & Roles</h3>
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm border rounded shadow">
+        <thead class="bg-purple-700 text-white">
+          <tr>
+            <th class="p-3 text-left">Name</th>
+            <th class="p-3 text-left">Grade</th>
+            <th class="p-3 text-left">Role</th>
+            <th class="p-3 text-left">Favorite Style</th>
+            <th class="p-3 text-left">Years</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white">
+          <tr class="border-b">
+            <td class="p-3">Sarah Johnson</td>
+            <td class="p-3">12th</td>
+            <td class="p-3">President</td>
+            <td class="p-3">Portrait</td>
+            <td class="p-3">3</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-3">Robert Cruz</td>
+            <td class="p-3">11th</td>
+            <td class="p-3">Equipment Head</td>
+            <td class="p-3">Travel</td>
+            <td class="p-3">2</td>
+          </tr>
+          <tr>
+            <td class="p-3">Emily Wang</td>
+            <td class="p-3">10th</td>
+            <td class="p-3">Event Organizer</td>
+            <td class="p-3">Street</td>
+            <td class="p-3">2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Equipment Section -->
+  <section id="Equipment List" class="max-w-6xl mx-auto px-4 py-8">
+    <h3 class="text-2xl font-semibold text-purple-700 mb-4">Available Equipment</h3>
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm border rounded shadow">
+        <thead class="bg-purple-700 text-white">
+          <tr>
+            <th class="p-3 text-left">Equipment</th>
+            <th class="p-3 text-left">Model</th>
+            <th class="p-3 text-left">Quantity</th>
+            <th class="p-3 text-left">Condition</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white">
+          <tr class="border-b">
+            <td class="p-3">DSLR Camera</td>
+            <td class="p-3">Canon EOS 90D</td>
+            <td class="p-3">4</td>
+            <td class="p-3">Excellent</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-3">Tripod</td>
+            <td class="p-3">Manfrotto</td>
+            <td class="p-3">5</td>
+            <td class="p-3">Good</td>
+          </tr>
+          <tr>
+            <td class="p-3">SD Cards</td>
+            <td class="p-3">SanDisk 32GB</td>
+            <td class="p-3">10</td>
+            <td class="p-3">Good</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section id="Upcoming Events" class="max-w-6xl mx-auto  py-8 px-6 ">
+    <h3 class="text-xl font-semibold text-purple-700 mb-4">Upcoming Events</h3>
+    <ul class="list-disc list-inside text-base space-y-2">
+      <li><strong>Outdoor Session:</strong> Nature Park – July 10</li>
+      <li><strong>Portrait Workshop:</strong> Studio B – July 15</li>
+      <li><strong>Exhibition Setup:</strong> Auditorium – July 20</li>
+      <li><strong>Photography Contest:</strong> School Hall – July 25</li>
+      <li><strong>Year-End Slideshow:</strong> Main Hall – July 30</li>
+    </ul>
+  </section>
+<section id="Join Our Club" class="max-w-6xl mx-auto p-6">
+    <h2 class="text-xl font-semibold text-purple-700 mb-4">Join Our Photography Club</h2>
+    <form class="space-y-5">
+      <input type="text" placeholder="Full Name" class="w-full border border-gray-300 p-2 rounded" />
+      <input type="email" placeholder="Email Address" class="w-full border border-gray-300 p-2 rounded" />
+
+      <select class="w-full border border-gray-300 p-2 rounded">
+        <option disabled selected>Select your grade</option>
+        <option>9th</option>
+        <option>10th</option>
+        <option>11th</option>
+        <option>12th</option>
+      </select>
+
+      <select class="w-full border border-gray-300 p-2 rounded">
+        <option disabled selected>Photography Experience</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+
+      <!-- Radio -->
+      <div>
+        <p class="text-sm font-medium mb-1">Do you own a camera?</p>
+        <label class="inline-flex items-center mr-4">
+          <input type="radio" name="camera" value="yes" class="mr-1"> Yes
+        </label>
+        <label class="inline-flex items-center">
+          <input type="radio" name="camera" value="no" class="mr-1"> No
+        </label>
+      </div>
+
+      <!-- Checkboxes -->
+      <div>
+        <p class="text-sm font-medium mb-1">Photography Interests (check all that apply):</p>
+        <label class="block"><input type="checkbox" class="mr-2">Portrait</label>
+        <label class="block"><input type="checkbox" class="mr-2">Landscape</label>
+        <label class="block"><input type="checkbox" class="mr-2">Macro</label>
+      </div>
+
+      <!-- Textareas -->
+      <textarea placeholder="Why do you want to join our club?" class="w-full border border-gray-300 p-2 rounded"></textarea>
+      <textarea placeholder="Tell us about your projects…" class="w-full border border-gray-300 p-2 rounded"></textarea>
+
+      <!-- Submit -->
+      <button type="submit" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">
+        Submit Application
+      </button>
+    </form>
+  </section>
+
+  <!-- Useful Resources Section -->
+  <section id="Join Our Club" class="max-w-6xl mx-auto p-6 mt-10">
+    <h2 class="text-lg font-semibold text-blue-700 mb-4">Useful Photography Resources</h2>
+
+    <!-- Educational Websites -->
+    <div class="mb-6">
+      <p class="font-semibold">Educational Websites:</p>
+      <ul class="list-disc list-inside text-sm text-blue-600">
+        <li><a href="#https://www.digitalcameraworld.com/tutorials" class="hover:underline">Digital Camera World</a></li>
+        <li><a href="#https://petapixel.com" class="hover:underline">PetaPixel - Photography News & Tutorials</a></li>
+        <li> <a href="https://www.youtube.com/channel/UC7T8roVtC_3afWKTOGtLlBA" class="hover:underline" >youtube</a>
+    </ul>
+    </div>
+
+    <!-- Free Photo Editing -->
+    <div class="mb-6">
+      <p class="font-semibold">Free Photo Editing Software:</p>
+      <ul class="list-disc list-inside text-sm text-blue-600">
+        <li><a href="#https://www.gimp.org" class="hover:underline">GIMP (GNU Image Manipulation Program)</a></li>
+        <li><a href="#https://www.canva.com" class="hover:underline">Canva Online Editor</a></li>
+      </ul>
+    </div>
+
+    <!-- Internal Links -->
+    <div>
+      <p class="font-semibold">Internal Navigation Links:</p>
+      <ul class="list-disc list-inside text-sm text-blue-600">
+        <li><a href="#nav" class="hover:underline">Back to Top Navigation</a></li>
+        <li><a href="#About" class="hover:underline">About Section</a></li>
+        <li><a href="#Club Members" class="hover:underline">Member Information</a></li>
+        <li><a href="#Join Our Club" class="hover:underline">Membership Form</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-sm mt-10">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center">
+      <p>&copy; 2025 School Photography Club. All rights reserved.</p>
+      <p>Contact us: <a href="mailto:photo@schoolclub.edu" class="text-blue-400 underline">photo@schoolclub.edu</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
+
